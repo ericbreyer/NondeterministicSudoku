@@ -1,6 +1,18 @@
 # Nondeterministic Sudoku Solver
 Using the `amb` form in scheme (racket) to solve sudoku.
 
+## Usage
+sudokusolve.rkt contains the solve and GUI logic. It is the main programsudokusolve.rkt.
+
+sudokuBoards.rkt is a seperate file containing the sudoku board definitions for the main program.
+
+ambExample.rkt is a less heavy showcase of `amb` - using it to find Pythagorean triples
+
+bin contains compiled binaries of the sudoku solver (compiled on M1 mac)
+
+all code is written in racket (PLT scheme)
+feel free to download and run the code/executables to see the solver in action + GUI. :)
+
 ## Inspiration
 I came across this [video](https://www.youtube.com/watch?v=iOJD7nd7cyY) in which I was introduced to the Amb operator. It immediately looked like black magic so I did some more research to understand how it works and its implementations.
 
