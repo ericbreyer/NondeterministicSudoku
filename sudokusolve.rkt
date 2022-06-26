@@ -119,7 +119,7 @@
 (define canvas-global '())
 (define dc-global '())
 
-(define frame (new frame% [label "Sudoku Solver"] [width w] [height (+ 100 h)]))
+(define frame (new frame% [label "Nondeterministic Sudoku Solver"] [width w] [height (+ 100 h)]))
 
 (define panel1 (new horizontal-panel% [parent frame]
                     [alignment '(center center)]
