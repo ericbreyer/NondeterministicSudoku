@@ -1,5 +1,6 @@
 # Nondeterministic Sudoku Solver
 Using the `amb` form in scheme (racket) to solve sudoku.
+Video Demo: https://youtu.be/K2qHKmIXjC8
 
 ## Usage
 sudokusolve.rkt contains the solve and GUI logic. It is the main programsudokusolve.rkt.
